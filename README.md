@@ -33,22 +33,22 @@ Este proyecto valida el comportamiento del API de generación de guías con el s
 - npm ≥ v9
 
 ### Instalación
-```bash
+bash
 git clone https://github.com/tu-usuario/recaudo-contra-entrega.git
 cd recaudo-contra-entrega
 npm install
 
-##🚀 Ejecución de Pruebas
-
+## 🚀 Ejecución de Pruebas
 ``
 npx playwright test recaudo-contra-entrega.spec.js
 ``
-## 📑 Generar Reporte HTML:
 
+##  📑 Generar Reporte HTML:
 ``
 npx playwright show-report
 ``
-##📂 Estructura del Proyecto
+
+## 📂 Estructura del Proyecto
 
 tests/
 ├── recaudo-contra-entrega.spec.js    # Archivo principal de pruebas
